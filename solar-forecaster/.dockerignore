@@ -1,0 +1,17 @@
+# .dockerignore
+
+# Python cache dosyaları
+__pycache__/
+*.pyc
+
+# Cython'un oluşturduğu ara dosyalar
+*.c
+*.so
+build/
+
+# IDE/Editör dosyaları
+.vscode/
+.idea/
+
+# Diğer
+*.log

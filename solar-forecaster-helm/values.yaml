@@ -1,0 +1,18 @@
+image:
+  repository: solar-forecaster-app
+  tag: local
+  pullPolicy: Never
+
+config:
+  PROMETHEUS_URL: "http://10.67.67.22:9090"
+  METRIC_NAME: 'mppt_values{sensor="panel gucu"}'
+  TRAIN_DAYS: "7"
+  BATTERY_CAPACITY_WH: "1500"
+  INITIAL_SOC_PERCENT: "80"
+  CONSTANT_LOAD_W: "100"
+  CHARGE_EFFICIENCY: "0.9"
+  DISCHARGE_EFFICIENCY: "0.9"
+  MAX_POWER_W: "1500.0"
+  PLOT_RESULTS: "False"
+  DETAILED_SUMMARY: "False"
+  USE_CYTHON: "True"

@@ -1,0 +1,40 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {{ include "solar-forecaster-helm.fullname" . }}
+spec:
+  template:
+    metadata:
+      labels:
+        app: {{ include "solar-forecaster-helm.name" . }}
+    spec:
+      containers:
+        - name: {{ .Chart.Name }}
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          env:
+            - name: PROMETHEUS_URL
+              value: {{ .Values.config.PROMETHEUS_URL | quote }}
+            - name: METRIC_NAME
+              value: {{ .Values.config.METRIC_NAME | quote }}
+            - name: TRAIN_DAYS
+              value: {{ .Values.config.TRAIN_DAYS | quote }}
+            - name: BATTERY_CAPACITY_WH
+              value: {{ .Values.config.BATTERY_CAPACITY_WH | quote }}
+            - name: INITIAL_SOC_PERCENT
+              value: {{ .Values.config.INITIAL_SOC_PERCENT | quote }}
+            - name: CONSTANT_LOAD_W
+              value: {{ .Values.config.CONSTANT_LOAD_W | quote }}
+            - name: CHARGE_EFFICIENCY
+              value: {{ .Values.config.CHARGE_EFFICIENCY | quote }}
+            - name: DISCHARGE_EFFICIENCY
+              value: {{ .Values.config.DISCHARGE_EFFICIENCY | quote }}
+            - name: MAX_POWER_W
+              value: {{ .Values.config.MAX_POWER_W | quote }}
+            - name: PLOT_RESULTS
+              value: {{ .Values.config.PLOT_RESULTS | quote }}
+            - name: DETAILED_SUMMARY
+              value: {{ .Values.config.DETAILED_SUMMARY | quote }}
+            - name: USE_CYTHON
+              value: {{ .Values.config.USE_CYTHON | quote }}
+      restartPolicy: Never

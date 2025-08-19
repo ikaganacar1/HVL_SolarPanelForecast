@@ -1,0 +1,732 @@
+2025-08-07 11:14:35,594 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-07 11:14:35,594 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-07 11:14:35,688 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://192.168.11.208:4545
+2025-08-07 11:14:35,688 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-07 11:15:05,382 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-07 11:15:05,382 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-07 11:15:05,390 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://192.168.11.208:4545
+2025-08-07 11:15:05,390 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-07 11:16:00,588 - __main__ - INFO - Running forecast with JSON parameters: 4 variables
+2025-08-07 11:16:00,929 - matplotlib.font_manager - INFO - generated new fontManager
+2025-08-07 11:16:02,464 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fecf4973150>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B86400s%5D&time=1754046962
+2025-08-07 11:16:04,465 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fecf49734d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B86400s%5D&time=1754046962
+2025-08-07 11:16:08,468 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fecf49881d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B86400s%5D&time=1754046962
+2025-08-07 11:16:08,472 - __main__ - ERROR - Error running forecast: 'NoneType' object is not subscriptable
+2025-08-07 11:16:08,475 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:16:08] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-07 11:16:08,497 - __main__ - INFO - Env file uploaded successfully. Session: 0aa6f61e-2edc-4b1c-8f2d-5fcab12c887c
+2025-08-07 11:16:08,498 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:16:08] "POST /upload-env HTTP/1.1" 200 -
+2025-08-07 11:16:08,505 - __main__ - INFO - Running forecast with session 0aa6f61e-2edc-4b1c-8f2d-5fcab12c887c, 10 variables
+2025-08-07 11:17:19,352 - __main__ - INFO - Running forecast with JSON parameters: 4 variables
+2025-08-07 11:17:19,354 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fecf498b710>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B86400s%5D&time=1754047039
+2025-08-07 11:17:21,355 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fecf49940d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B86400s%5D&time=1754047039
+2025-08-07 11:17:25,359 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fecf49947d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B86400s%5D&time=1754047039
+2025-08-07 11:17:25,362 - __main__ - ERROR - Error running forecast: 'NoneType' object is not subscriptable
+2025-08-07 11:17:25,363 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:17:25] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-07 11:17:25,383 - __main__ - INFO - Env file uploaded successfully. Session: fbc68410-2f9a-4b16-b55f-e01023f06d04
+2025-08-07 11:17:25,384 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:17:25] "POST /upload-env HTTP/1.1" 200 -
+2025-08-07 11:17:25,391 - __main__ - INFO - Running forecast with session fbc68410-2f9a-4b16-b55f-e01023f06d04, 10 variables
+2025-08-07 11:18:21,658 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-07 11:18:21,659 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-07 11:18:21,672 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-07 11:18:21,673 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-07 11:18:34,683 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:18:34] "GET /health HTTP/1.1" 200 -
+2025-08-07 11:18:51,419 - __main__ - INFO - Running forecast with JSON parameters: 4 variables
+2025-08-07 11:18:52,385 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0657b12b90>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B86400s%5D&time=1754047132
+2025-08-07 11:18:54,386 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0658e86ed0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B86400s%5D&time=1754047132
+2025-08-07 11:18:58,389 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0657b13950>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B86400s%5D&time=1754047132
+2025-08-07 11:18:58,392 - __main__ - ERROR - Error running forecast: 'NoneType' object is not subscriptable
+2025-08-07 11:18:58,395 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:18:58] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-07 11:18:58,417 - __main__ - INFO - Env file uploaded successfully. Session: 58d3d3af-6838-4800-9ffa-477585862e3e
+2025-08-07 11:18:58,418 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:18:58] "POST /upload-env HTTP/1.1" 200 -
+2025-08-07 11:18:58,426 - __main__ - INFO - Running forecast with session 58d3d3af-6838-4800-9ffa-477585862e3e, 10 variables
+2025-08-07 11:21:12,954 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0678d28850>, 'Connection to 192.168.1.100 timed out. (connect timeout=None)')': /api/v1/query?query=solar_power%7Blocation%3D%22roof%22%7D%5B86400s%5D&time=1754047138
+2025-08-07 11:23:30,122 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0657b20890>, 'Connection to 192.168.1.100 timed out. (connect timeout=None)')': /api/v1/query?query=solar_power%7Blocation%3D%22roof%22%7D%5B86400s%5D&time=1754047138
+2025-08-07 11:25:45,838 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-07 11:25:45,839 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-07 11:25:45,864 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-07 11:25:45,865 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-07 11:28:44,023 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:28:44] "GET /health HTTP/1.1" 200 -
+2025-08-07 11:28:56,121 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:28:56] "GET /sample-env HTTP/1.1" 200 -
+2025-08-07 11:29:31,149 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:29:31] "GET /sessions HTTP/1.1" 200 -
+2025-08-07 11:29:50,894 - __main__ - INFO - Running forecast with JSON parameters: 2 variables
+2025-08-07 11:29:51,324 - matplotlib.font_manager - INFO - generated new fontManager
+2025-08-07 11:29:52,620 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd00216a690>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B86400s%5D&time=1754047793
+2025-08-07 11:29:54,623 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd00216ab90>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B86400s%5D&time=1754047793
+2025-08-07 11:29:58,626 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd00216b4d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B86400s%5D&time=1754047793
+2025-08-07 11:29:58,628 - __main__ - ERROR - Error running forecast: 'NoneType' object is not subscriptable
+2025-08-07 11:29:58,629 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:29:58] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-07 11:31:05,827 - __main__ - ERROR - Error running forecast: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-08-07 11:31:05,829 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:31:05] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-07 11:31:35,116 - __main__ - ERROR - Error running forecast: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-08-07 11:31:35,118 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:31:35] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-07 11:31:47,557 - __main__ - ERROR - Error running forecast: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-08-07 11:31:47,558 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:31:47] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-07 11:32:48,699 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:32:48] "[31m[1mPOST /upload-env HTTP/1.1[0m" 400 -
+2025-08-07 11:32:54,950 - __main__ - INFO - Env file uploaded successfully. Session: 732aa50a-298e-472f-bba1-072153d08aa0
+2025-08-07 11:32:54,951 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:32:54] "POST /upload-env HTTP/1.1" 200 -
+2025-08-07 11:33:06,589 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:33:06] "GET /sessions HTTP/1.1" 200 -
+2025-08-07 11:33:10,886 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:33:10] "[31m[1mGET /run HTTP/1.1[0m" 405 -
+2025-08-07 11:33:48,607 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:33:48] "[31m[1mGET /run HTTP/1.1[0m" 405 -
+2025-08-07 11:34:03,337 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:34:03] "GET /sessions HTTP/1.1" 200 -
+2025-08-07 11:34:45,210 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:34:45] "[33mGET /run-with-env HTTP/1.1[0m" 404 -
+2025-08-07 11:34:57,898 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:34:57] "[31m[1mGET /run-with-env/1 HTTP/1.1[0m" 405 -
+2025-08-07 11:37:01,766 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:37:01] "[33mPOST /run-with-env/1 HTTP/1.1[0m" 404 -
+2025-08-07 11:37:09,078 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:37:09] "[33mGET /run-with-env/ HTTP/1.1[0m" 404 -
+2025-08-07 11:37:14,935 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:37:14] "[33mPOST /run-with-env/ HTTP/1.1[0m" 404 -
+2025-08-07 11:37:20,920 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:37:20] "[33mPOST /run-with-env/1 HTTP/1.1[0m" 404 -
+2025-08-07 11:37:26,572 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:37:26] "GET /sessions HTTP/1.1" 200 -
+2025-08-07 11:37:40,858 - __main__ - ERROR - Error running forecast with env: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-08-07 11:37:40,860 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:37:40] "[35m[1mPOST /run-with-env/732aa50a-298e-472f-bba1-072153d08aa0 HTTP/1.1[0m" 500 -
+2025-08-07 11:38:43,523 - __main__ - INFO - Running forecast with session 732aa50a-298e-472f-bba1-072153d08aa0, 13 variables
+2025-08-07 11:38:43,693 - __main__ - ERROR - Error running forecast with env: Simulation failed to produce results
+2025-08-07 11:38:43,694 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:38:43] "[35m[1mPOST /run-with-env/732aa50a-298e-472f-bba1-072153d08aa0 HTTP/1.1[0m" 500 -
+2025-08-07 11:42:00,910 - __main__ - ERROR - Error running forecast: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-08-07 11:42:00,912 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:42:00] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-07 11:42:31,235 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:42:31] "[33mDELETE /sessions/SESSION_ID HTTP/1.1[0m" 404 -
+2025-08-07 11:42:31,269 - __main__ - INFO - Running forecast with JSON parameters: 0 variables
+2025-08-07 11:42:31,274 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd0020b1fd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B86400s%5D&time=1754048551
+2025-08-07 11:42:33,277 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd0020b2810>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B86400s%5D&time=1754048551
+2025-08-07 11:42:37,280 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd0020b3010>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B86400s%5D&time=1754048551
+2025-08-07 11:42:37,283 - __main__ - ERROR - Error running forecast: 'NoneType' object is not subscriptable
+2025-08-07 11:42:37,284 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:42:37] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-07 11:43:36,160 - __main__ - INFO - Running forecast with session 732aa50a-298e-472f-bba1-072153d08aa0, 13 variables
+2025-08-07 11:43:36,242 - __main__ - ERROR - Error running forecast with env: Simulation failed to produce results
+2025-08-07 11:43:36,242 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:43:36] "[35m[1mPOST /run-with-env/732aa50a-298e-472f-bba1-072153d08aa0 HTTP/1.1[0m" 500 -
+2025-08-07 11:43:44,608 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:43:44] "GET /sessions HTTP/1.1" 200 -
+2025-08-07 11:43:54,962 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:43:54] "GET /health HTTP/1.1" 200 -
+2025-08-07 11:44:02,997 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 11:44:02] "GET /sample-env HTTP/1.1" 200 -
+2025-08-07 12:52:45,502 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-07 12:52:45,502 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-07 12:52:45,638 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://192.168.11.208:4545
+2025-08-07 12:52:45,638 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-07 12:55:39,493 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-07 12:55:39,493 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-07 12:55:39,509 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-07 12:55:39,509 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-07 12:55:46,663 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 12:55:46] "GET /sample-env HTTP/1.1" 200 -
+2025-08-07 12:55:49,286 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 12:55:49] "GET /health HTTP/1.1" 200 -
+2025-08-07 12:55:52,806 - werkzeug - INFO - 127.0.0.1 - - [07/Aug/2025 12:55:52] "GET /sessions HTTP/1.1" 200 -
+2025-08-19 04:15:53,156 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-19 04:15:53,157 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-19 04:15:53,178 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 04:15:53,179 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 05:14:58,159 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-19 05:14:58,159 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-19 05:14:58,176 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 05:14:58,176 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 05:16:37,090 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:16:37] "GET /health HTTP/1.1" 200 -
+2025-08-19 05:16:48,473 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:16:48] "GET /sample-env HTTP/1.1" 200 -
+2025-08-19 05:16:54,439 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:16:54] "GET /sample-env HTTP/1.1" 200 -
+2025-08-19 05:17:03,073 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:17:03] "GET /sessions HTTP/1.1" 200 -
+2025-08-19 05:17:27,039 - __main__ - INFO - Running forecast with JSON parameters: 2 variables
+2025-08-19 05:17:27,634 - matplotlib.font_manager - INFO - generated new fontManager
+2025-08-19 05:17:29,872 - __main__ - ERROR - Error running forecast: get_data_from_prometheus() got an unexpected keyword argument 'step'
+2025-08-19 05:17:29,873 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:17:29] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 05:18:14,856 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:18:14] "[33mGET /help HTTP/1.1[0m" 404 -
+2025-08-19 05:18:19,388 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:18:19] "[33mGET / HTTP/1.1[0m" 404 -
+2025-08-19 05:20:24,417 - __main__ - INFO - Env file uploaded successfully. Session: 00dcfc9c-9baf-4a87-92f3-fb04c8d19c3a
+2025-08-19 05:20:24,418 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:20:24] "POST /upload-env HTTP/1.1" 200 -
+2025-08-19 05:20:30,450 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:20:30] "GET /sessions HTTP/1.1" 200 -
+2025-08-19 05:21:09,093 - __main__ - INFO - Running forecast with session 00dcfc9c-9baf-4a87-92f3-fb04c8d19c3a, 13 variables
+2025-08-19 05:21:09,094 - __main__ - ERROR - Error running forecast with env: get_data_from_prometheus() got an unexpected keyword argument 'step'
+2025-08-19 05:21:09,095 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:21:09] "[35m[1mPOST /run-with-env/00dcfc9c-9baf-4a87-92f3-fb04c8d19c3a HTTP/1.1[0m" 500 -
+2025-08-19 05:23:39,488 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-19 05:23:39,488 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-19 05:23:39,534 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 05:23:39,535 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 05:23:51,815 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:23:51] "GET /sessions HTTP/1.1" 200 -
+2025-08-19 05:24:01,372 - __main__ - INFO - Env file uploaded successfully. Session: b402039b-6c9a-4310-9bbb-aa90ce234cee
+2025-08-19 05:24:01,374 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:24:01] "POST /upload-env HTTP/1.1" 200 -
+2025-08-19 05:24:23,305 - __main__ - INFO - Running forecast with session b402039b-6c9a-4310-9bbb-aa90ce234cee, 13 variables
+2025-08-19 05:24:23,771 - matplotlib.font_manager - INFO - generated new fontManager
+2025-08-19 05:24:25,153 - __main__ - ERROR - Error running forecast with env: get_data_from_prometheus() missing 1 required positional argument: 'chunk_size'
+2025-08-19 05:24:25,156 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:24:25] "[35m[1mPOST /run-with-env/b402039b-6c9a-4310-9bbb-aa90ce234cee HTTP/1.1[0m" 500 -
+2025-08-19 05:25:04,685 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-19 05:25:04,685 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-19 05:25:04,698 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 05:25:04,698 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 05:25:22,524 - __main__ - INFO - Env file uploaded successfully. Session: 2ba30552-990f-4bd6-8eac-26b6c1fb5284
+2025-08-19 05:25:22,529 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:25:22] "POST /upload-env HTTP/1.1" 200 -
+2025-08-19 05:25:27,447 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:25:27] "GET /sessions HTTP/1.1" 200 -
+2025-08-19 05:25:55,537 - __main__ - INFO - Running forecast with session 2ba30552-990f-4bd6-8eac-26b6c1fb5284, 13 variables
+2025-08-19 05:25:55,952 - matplotlib.font_manager - INFO - generated new fontManager
+2025-08-19 05:25:57,438 - __main__ - ERROR - Error running forecast with env: Simulation failed to produce results
+2025-08-19 05:25:57,438 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:25:57] "[35m[1mPOST /run-with-env/2ba30552-990f-4bd6-8eac-26b6c1fb5284 HTTP/1.1[0m" 500 -
+2025-08-19 05:26:26,233 - __main__ - INFO - Running forecast with session 2ba30552-990f-4bd6-8eac-26b6c1fb5284, 13 variables
+2025-08-19 05:26:26,737 - __main__ - ERROR - Error running forecast with env: Simulation failed to produce results
+2025-08-19 05:26:26,738 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:26:26] "[35m[1mPOST /run-with-env/2ba30552-990f-4bd6-8eac-26b6c1fb5284 HTTP/1.1[0m" 500 -
+2025-08-19 05:40:10,275 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-19 05:40:10,275 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-19 05:40:10,290 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 05:40:10,290 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 05:40:22,758 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:40:22] "[33mPOST /run-with-env/2ba30552-990f-4bd6-8eac-26b6c1fb5284 HTTP/1.1[0m" 404 -
+2025-08-19 05:40:26,925 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:40:26] "GET /sessions HTTP/1.1" 200 -
+2025-08-19 05:40:33,668 - __main__ - INFO - Env file uploaded successfully. Session: 1d4ed654-dd01-46e0-b6f5-34445a8648f6
+2025-08-19 05:40:33,671 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:40:33] "POST /upload-env HTTP/1.1" 200 -
+2025-08-19 05:41:23,743 - __main__ - INFO - Running forecast with session 1d4ed654-dd01-46e0-b6f5-34445a8648f6, 13 variables
+2025-08-19 05:41:25,797 - __main__ - ERROR - Error running forecast with env: Simulation failed to produce results
+2025-08-19 05:41:25,799 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:41:25] "[35m[1mPOST /run-with-env/1d4ed654-dd01-46e0-b6f5-34445a8648f6 HTTP/1.1[0m" 500 -
+2025-08-19 05:42:41,434 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-19 05:42:41,434 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-19 05:42:41,448 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 05:42:41,448 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 05:43:00,454 - __main__ - ERROR - Error running forecast: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-08-19 05:43:00,457 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:43:00] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 05:44:00,498 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:44:00] "[31m[1mGET /run HTTP/1.1[0m" 405 -
+2025-08-19 05:45:01,872 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:45:01] "[33mPOST /run-with-env/1 HTTP/1.1[0m" 404 -
+2025-08-19 05:45:12,273 - __main__ - INFO - Running forecast with JSON parameters: 0 variables
+2025-08-19 05:45:12,653 - matplotlib.font_manager - INFO - generated new fontManager
+2025-08-19 05:45:14,150 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa2d82c6110>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B604800s%5D&time=1755582314
+2025-08-19 05:45:16,151 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa2d82c6910>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B604800s%5D&time=1755582314
+2025-08-19 05:45:20,154 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa2d82c7190>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B604800s%5D&time=1755582314
+2025-08-19 05:45:20,156 - __main__ - ERROR - Error running forecast: 'NoneType' object is not subscriptable
+2025-08-19 05:45:20,157 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:45:20] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 05:45:47,772 - __main__ - ERROR - Error running forecast: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-08-19 05:45:47,773 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:45:47] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 05:46:07,046 - __main__ - ERROR - Error running forecast: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-08-19 05:46:07,047 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:46:07] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 05:46:24,333 - __main__ - ERROR - Error running forecast: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-08-19 05:46:24,334 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:46:24] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 05:48:06,250 - __main__ - INFO - Running forecast with JSON parameters: 3 variables
+2025-08-19 05:48:06,500 - __main__ - ERROR - Error running forecast: Simulation failed to produce results
+2025-08-19 05:48:06,503 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:48:06] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 05:49:02,713 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-19 05:49:02,713 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-19 05:49:02,732 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 05:49:02,732 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 05:49:03,484 - __main__ - INFO - Running forecast with JSON parameters: 3 variables
+2025-08-19 05:49:03,939 - matplotlib.font_manager - INFO - generated new fontManager
+2025-08-19 05:49:05,887 - __main__ - ERROR - Error running forecast: Simulation failed to produce results
+2025-08-19 05:49:05,888 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:49:05] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 05:50:09,324 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-19 05:50:09,325 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-19 05:50:09,341 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 05:50:09,342 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 05:50:11,548 - __main__ - INFO - Running forecast with JSON parameters: 3 variables
+2025-08-19 05:50:11,954 - matplotlib.font_manager - INFO - generated new fontManager
+2025-08-19 05:50:14,199 - __main__ - ERROR - Error running forecast: Simulation failed to produce results
+2025-08-19 05:50:14,205 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:50:14] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 05:51:42,978 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-19 05:51:42,978 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-19 05:51:42,998 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 05:51:42,998 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 05:51:46,568 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:51:46] "[31m[1mGET /run HTTP/1.1[0m" 405 -
+2025-08-19 05:51:46,719 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:51:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-19 05:51:51,253 - __main__ - INFO - Running forecast with JSON parameters: 3 variables
+2025-08-19 05:51:51,696 - matplotlib.font_manager - INFO - generated new fontManager
+2025-08-19 05:51:53,269 - __main__ - ERROR - Error running forecast: 'NoneType' object is not subscriptable
+2025-08-19 05:51:53,269 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:51:53] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 05:55:55,310 - __main__ - INFO - Running forecast with JSON parameters: 4 variables
+2025-08-19 05:55:55,311 - __main__ - ERROR - Error running forecast: 'NoneType' object is not subscriptable
+2025-08-19 05:55:55,313 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:55:55] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 05:56:30,009 - __main__ - INFO - Running forecast with JSON parameters: 4 variables
+2025-08-19 05:56:30,011 - __main__ - ERROR - Error running forecast: 'NoneType' object is not subscriptable
+2025-08-19 05:56:30,013 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:56:30] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 05:57:43,865 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-19 05:57:43,865 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-19 05:57:43,880 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 05:57:43,880 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 05:57:51,990 - __main__ - INFO - Running forecast with JSON parameters: 4 variables
+2025-08-19 05:57:52,389 - matplotlib.font_manager - INFO - generated new fontManager
+2025-08-19 05:57:54,083 - __main__ - ERROR - Error running forecast: Simulation failed to produce results
+2025-08-19 05:57:54,089 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 05:57:54] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 06:00:49,206 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-19 06:00:49,207 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-19 06:00:49,226 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 06:00:49,227 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 06:00:51,055 - __main__ - INFO - Running forecast with JSON parameters: 4 variables
+2025-08-19 06:00:51,552 - matplotlib.font_manager - INFO - generated new fontManager
+2025-08-19 06:00:53,712 - __main__ - ERROR - Error running forecast: Simulation failed to produce results
+2025-08-19 06:00:53,716 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 06:00:53] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 06:13:26,531 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-19 06:13:26,532 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-19 06:13:26,555 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 06:13:26,556 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 06:13:27,727 - __main__ - INFO - Running forecast with JSON parameters: 4 variables
+2025-08-19 06:13:28,214 - matplotlib.font_manager - INFO - generated new fontManager
+2025-08-19 06:13:30,719 - __main__ - ERROR - Error running forecast: Simulation failed to produce results
+2025-08-19 06:13:30,720 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 06:13:30] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 06:17:54,505 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-19 06:17:54,505 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-19 06:17:54,529 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 06:17:54,529 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 06:17:58,842 - __main__ - INFO - Running forecast with JSON parameters: 4 variables
+2025-08-19 06:17:59,294 - matplotlib.font_manager - INFO - generated new fontManager
+2025-08-19 06:18:01,852 - __main__ - ERROR - Error running forecast: Simulation failed to produce results
+2025-08-19 06:18:01,855 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 06:18:01] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 06:18:42,109 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-19 06:18:42,110 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-19 06:18:42,130 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 06:18:42,130 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 06:18:43,173 - __main__ - INFO - Running forecast with JSON parameters: 4 variables
+2025-08-19 06:18:43,605 - matplotlib.font_manager - INFO - generated new fontManager
+2025-08-19 06:18:49,041 - __main__ - ERROR - Error running forecast: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+2025-08-19 06:18:49,042 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 06:18:49] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 06:23:29,836 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-19 06:23:29,836 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-19 06:23:29,853 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 06:23:29,853 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 06:23:31,545 - __main__ - INFO - Running forecast with JSON parameters: 4 variables
+2025-08-19 06:23:32,023 - matplotlib.font_manager - INFO - generated new fontManager
+2025-08-19 06:23:34,751 - __main__ - ERROR - Error running forecast: Simulation failed to produce results
+2025-08-19 06:23:34,753 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 06:23:34] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 06:24:30,182 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-19 06:24:30,182 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-19 06:24:30,210 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 06:24:30,210 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 06:24:32,616 - __main__ - INFO - Running forecast with JSON parameters: 4 variables
+2025-08-19 06:24:33,125 - matplotlib.font_manager - INFO - generated new fontManager
+2025-08-19 06:24:38,677 - __main__ - ERROR - Error running forecast: cannot access local variable 'time' where it is not associated with a value
+2025-08-19 06:24:38,679 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 06:24:38] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 06:32:09,996 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-19 06:32:09,996 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-19 06:32:10,014 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 06:32:10,015 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 06:32:12,264 - __main__ - INFO - Running forecast with JSON parameters: 4 variables
+2025-08-19 06:32:12,838 - matplotlib.font_manager - INFO - generated new fontManager
+2025-08-19 06:32:18,729 - __main__ - ERROR - Error running forecast: cannot access local variable 'time' where it is not associated with a value
+2025-08-19 06:32:18,731 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 06:32:18] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 06:32:59,744 - __main__ - INFO - Running forecast with JSON parameters: 4 variables
+2025-08-19 06:33:04,454 - __main__ - ERROR - Error running forecast: cannot access local variable 'time' where it is not associated with a value
+2025-08-19 06:33:04,458 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 06:33:04] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 06:41:26,976 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-19 06:41:26,977 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-19 06:41:26,992 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 06:41:26,992 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 06:41:28,942 - __main__ - INFO - Running forecast with JSON parameters: 4 variables
+2025-08-19 06:41:29,430 - matplotlib.font_manager - INFO - generated new fontManager
+2025-08-19 06:41:35,556 - __main__ - ERROR - Error running forecast: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+2025-08-19 06:41:35,558 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 06:41:35] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 06:43:32,859 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-19 06:43:32,859 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-19 06:43:32,878 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 06:43:32,878 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 06:43:34,807 - __main__ - INFO - Running forecast with JSON parameters: 4 variables
+2025-08-19 06:43:35,228 - matplotlib.font_manager - INFO - generated new fontManager
+2025-08-19 06:43:41,088 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 06:43:41] "POST /run HTTP/1.1" 200 -
+2025-08-19 06:59:21,010 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-19 06:59:21,010 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-19 06:59:21,028 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 06:59:21,028 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 06:59:47,849 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 06:59:47] "[33mGET /apidocs HTTP/1.1[0m" 404 -
+2025-08-19 06:59:53,915 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 06:59:53] "[33mGET /apidocs HTTP/1.1[0m" 404 -
+2025-08-19 07:03:45,659 - __main__ - INFO - Starting Docker Service API on 0.0.0.0:4545
+2025-08-19 07:03:45,659 - __main__ - INFO - Upload folder: /app/uploads
+2025-08-19 07:03:45,695 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 07:03:45,696 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 07:03:56,753 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:03:56] "[33mGET /apidocs HTTP/1.1[0m" 404 -
+2025-08-19 07:03:57,542 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:03:57] "[33mGET /apidocs HTTP/1.1[0m" 404 -
+2025-08-19 07:07:25,777 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 07:07:25,777 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 07:08:01,484 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:08:01] "[32mGET /apidocs HTTP/1.1[0m" 308 -
+2025-08-19 07:08:01,532 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:08:01] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-19 07:08:01,608 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:08:01] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2025-08-19 07:08:01,613 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:08:01] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2025-08-19 07:08:01,622 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:08:01] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2025-08-19 07:08:01,633 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:08:01] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2025-08-19 07:08:02,106 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:08:02] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+2025-08-19 07:08:02,155 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:08:02] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-19 07:09:25,064 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:09:25] "GET /health HTTP/1.1" 200 -
+2025-08-19 07:09:29,288 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:09:29] "GET /health HTTP/1.1" 200 -
+2025-08-19 07:09:29,935 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:09:29] "GET /health HTTP/1.1" 200 -
+2025-08-19 07:29:53,934 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 07:29:53,934 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 07:29:58,521 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:29:58] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-19 07:29:58,558 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:29:58] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-19 07:29:58,559 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:29:58] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-19 07:29:58,563 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:29:58] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-19 07:29:58,564 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:29:58] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-19 07:29:58,817 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:29:58] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-19 07:32:28,030 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-19 07:32:28,051 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 07:32:28,052 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 07:32:40,090 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:32:40] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-19 07:32:40,178 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:32:40] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-19 07:32:40,185 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:32:40] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-19 07:32:40,191 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:32:40] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-19 07:32:40,193 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:32:40] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-19 07:32:40,544 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:32:40] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-19 07:35:30,544 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-19 07:35:30,554 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fb9225d9c90>: Failed to resolve 'prometheus' ([Errno -3] Temporary failure in name resolution)")': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B691200s%5D&time=1755588931
+2025-08-19 07:35:32,563 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fb9225da790>: Failed to resolve 'prometheus' ([Errno -3] Temporary failure in name resolution)")': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B691200s%5D&time=1755588931
+2025-08-19 07:35:36,573 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fb9225dafd0>: Failed to resolve 'prometheus' ([Errno -3] Temporary failure in name resolution)")': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B691200s%5D&time=1755588931
+2025-08-19 07:35:36,581 - __main__ - ERROR - Error running forecast: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 419, in run_forecaster_with_env
+    forecaster = OptimizedSolarPowerSARIMAXForecaster(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 47, in __init__
+    self.load_data()
+  File "/app/optimized_forecaster.py", line 98, in load_data
+    self.df["DC_POWER"] = self.df[self.metric]
+                          ~~~~~~~^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-08-19 07:35:36,583 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:35:36] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 07:37:01,427 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-19 07:37:01,466 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fb9225df190>: Failed to resolve 'prometheus' ([Errno -3] Temporary failure in name resolution)")': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B691200s%5D&time=1755589021
+2025-08-19 07:37:03,480 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fb923239390>: Failed to resolve 'prometheus' ([Errno -3] Temporary failure in name resolution)")': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B691200s%5D&time=1755589021
+2025-08-19 07:37:07,496 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fb9225bed90>: Failed to resolve 'prometheus' ([Errno -3] Temporary failure in name resolution)")': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B691200s%5D&time=1755589021
+2025-08-19 07:37:07,518 - __main__ - ERROR - Error running forecast: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 419, in run_forecaster_with_env
+    forecaster = OptimizedSolarPowerSARIMAXForecaster(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 47, in __init__
+    self.load_data()
+  File "/app/optimized_forecaster.py", line 98, in load_data
+    self.df["DC_POWER"] = self.df[self.metric]
+                          ~~~~~~~^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-08-19 07:37:07,521 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:37:07] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 07:37:38,648 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:37:38] "GET /health HTTP/1.1" 200 -
+2025-08-19 07:37:41,046 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:37:41] "GET /health HTTP/1.1" 200 -
+2025-08-19 07:38:12,285 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-19 07:38:12,353 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fb9225df790>: Failed to resolve 'prometheus' ([Errno -3] Temporary failure in name resolution)")': /api/v1/query?query=mppt_values%7Bsensor%3D%27panel+gucu%27%7D%5B691200s%5D&time=1755589092
+2025-08-19 07:38:14,364 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fb9208a8050>: Failed to resolve 'prometheus' ([Errno -3] Temporary failure in name resolution)")': /api/v1/query?query=mppt_values%7Bsensor%3D%27panel+gucu%27%7D%5B691200s%5D&time=1755589092
+2025-08-19 07:38:18,375 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fb9208a8b10>: Failed to resolve 'prometheus' ([Errno -3] Temporary failure in name resolution)")': /api/v1/query?query=mppt_values%7Bsensor%3D%27panel+gucu%27%7D%5B691200s%5D&time=1755589092
+2025-08-19 07:38:18,593 - __main__ - ERROR - Error running forecast: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 419, in run_forecaster_with_env
+    forecaster = OptimizedSolarPowerSARIMAXForecaster(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 47, in __init__
+    self.load_data()
+  File "/app/optimized_forecaster.py", line 98, in load_data
+    self.df["DC_POWER"] = self.df[self.metric]
+                          ~~~~~~~^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-08-19 07:38:18,593 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:38:18] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 07:38:22,142 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-19 07:38:22,157 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fb92259bb90>: Failed to resolve 'prometheus' ([Errno -3] Temporary failure in name resolution)")': /api/v1/query?query=mppt_values%7Bsensor%3D%27panel+gucu%27%7D%5B691200s%5D&time=1755589102
+2025-08-19 07:38:24,173 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fb9225b3950>: Failed to resolve 'prometheus' ([Errno -3] Temporary failure in name resolution)")': /api/v1/query?query=mppt_values%7Bsensor%3D%27panel+gucu%27%7D%5B691200s%5D&time=1755589102
+2025-08-19 07:38:28,185 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fb9208a99d0>: Failed to resolve 'prometheus' ([Errno -3] Temporary failure in name resolution)")': /api/v1/query?query=mppt_values%7Bsensor%3D%27panel+gucu%27%7D%5B691200s%5D&time=1755589102
+2025-08-19 07:38:28,196 - __main__ - ERROR - Error running forecast: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 419, in run_forecaster_with_env
+    forecaster = OptimizedSolarPowerSARIMAXForecaster(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 47, in __init__
+    self.load_data()
+  File "/app/optimized_forecaster.py", line 98, in load_data
+    self.df["DC_POWER"] = self.df[self.metric]
+                          ~~~~~~~^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-08-19 07:38:28,197 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:38:28] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 07:39:34,374 - __main__ - INFO - Running forecast with JSON parameters: 9 variables
+2025-08-19 07:39:34,374 - __main__ - ERROR - Error running forecast: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 419, in run_forecaster_with_env
+    forecaster = OptimizedSolarPowerSARIMAXForecaster(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 47, in __init__
+    self.load_data()
+  File "/app/optimized_forecaster.py", line 98, in load_data
+    self.df["DC_POWER"] = self.df[self.metric]
+                          ~~~~~~~^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-08-19 07:39:34,375 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:39:34] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 07:39:39,867 - __main__ - INFO - Running forecast with JSON parameters: 9 variables
+2025-08-19 07:39:39,868 - __main__ - ERROR - Error running forecast: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 419, in run_forecaster_with_env
+    forecaster = OptimizedSolarPowerSARIMAXForecaster(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 47, in __init__
+    self.load_data()
+  File "/app/optimized_forecaster.py", line 98, in load_data
+    self.df["DC_POWER"] = self.df[self.metric]
+                          ~~~~~~~^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-08-19 07:39:39,873 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:39:39] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 07:41:20,240 - __main__ - INFO - Running forecast with JSON parameters: 9 variables
+2025-08-19 07:41:20,241 - __main__ - ERROR - Error running forecast: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 419, in run_forecaster_with_env
+    forecaster = OptimizedSolarPowerSARIMAXForecaster(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 47, in __init__
+    self.load_data()
+  File "/app/optimized_forecaster.py", line 98, in load_data
+    self.df["DC_POWER"] = self.df[self.metric]
+                          ~~~~~~~^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-08-19 07:41:20,241 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:41:20] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 07:41:23,384 - __main__ - INFO - Running forecast with JSON parameters: 9 variables
+2025-08-19 07:41:23,386 - __main__ - ERROR - Error running forecast: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 419, in run_forecaster_with_env
+    forecaster = OptimizedSolarPowerSARIMAXForecaster(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 47, in __init__
+    self.load_data()
+  File "/app/optimized_forecaster.py", line 98, in load_data
+    self.df["DC_POWER"] = self.df[self.metric]
+                          ~~~~~~~^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-08-19 07:41:23,388 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:41:23] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 07:42:05,855 - __main__ - ERROR - Error running forecast: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/werkzeug/wrappers/request.py", line 611, in get_json
+    rv = self.json_module.loads(data)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/flask/json/provider.py", line 187, in loads
+    return json.loads(s, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5 column 1 (char 97)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/flask/wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/werkzeug/wrappers/request.py", line 645, in on_json_loading_failed
+    raise BadRequest(f"Failed to decode JSON object: {e}")
+werkzeug.exceptions.BadRequest: 400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 5 column 1 (char 97)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/run.py", line 387, in run_forecast_json
+    params = request.get_json()
+             ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/werkzeug/wrappers/request.py", line 620, in get_json
+    rv = self.on_json_loading_failed(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/flask/wrappers.py", line 219, in on_json_loading_failed
+    raise BadRequest() from ebr
+werkzeug.exceptions.BadRequest: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-08-19 07:42:05,857 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:42:05] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 07:42:15,975 - __main__ - INFO - Running forecast with JSON parameters: 3 variables
+2025-08-19 07:42:15,976 - __main__ - ERROR - Error running forecast: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 419, in run_forecaster_with_env
+    forecaster = OptimizedSolarPowerSARIMAXForecaster(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 47, in __init__
+    self.load_data()
+  File "/app/optimized_forecaster.py", line 98, in load_data
+    self.df["DC_POWER"] = self.df[self.metric]
+                          ~~~~~~~^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-08-19 07:42:15,980 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:42:15] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 07:43:03,427 - __main__ - INFO - Env file uploaded successfully. Session: f8f51497-ffc3-4f25-9671-d2395ae02fbd
+2025-08-19 07:43:03,428 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:43:03] "POST /upload-env HTTP/1.1" 200 -
+2025-08-19 07:43:33,263 - __main__ - INFO - Running forecast with session f8f51497-ffc3-4f25-9671-d2395ae02fbd, 13 variables
+2025-08-19 07:43:38,806 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:43:38] "POST /run-with-env/f8f51497-ffc3-4f25-9671-d2395ae02fbd HTTP/1.1" 200 -
+2025-08-19 07:46:45,482 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-19 07:46:45,517 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 07:46:45,517 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 07:46:45,984 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:46:45] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-19 07:46:46,076 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:46:46] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-19 07:46:46,077 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:46:46] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-19 07:46:46,079 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:46:46] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-19 07:46:46,084 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:46:46] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-19 07:46:46,377 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:46:46] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-19 07:46:49,713 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:46:49] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-19 07:46:49,868 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:46:49] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-19 07:46:49,877 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:46:49] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-19 07:46:49,881 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:46:49] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-19 07:46:49,897 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:46:49] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-19 07:46:50,141 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:46:50] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-19 07:47:15,447 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-19 07:47:21,200 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:47:21] "POST /run HTTP/1.1" 200 -
+2025-08-19 07:47:52,558 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:47:52] "GET /sessions HTTP/1.1" 200 -
+2025-08-19 07:52:51,457 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:52:51] "OPTIONS /apidocs/ HTTP/1.1" 200 -
+2025-08-19 07:53:09,004 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:53:09] "OPTIONS /apidocs/ HTTP/1.1" 200 -
+2025-08-19 07:55:01,406 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 07:55:01] "OPTIONS /apispec_1.json HTTP/1.1" 200 -
+2025-08-19 08:08:48,446 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-19 08:08:48,462 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-19 08:08:48,462 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-19 08:08:57,705 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 08:08:57] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-19 08:08:57,747 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 08:08:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-19 08:09:15,881 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 08:09:15] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-19 10:14:44,025 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 10:14:44] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-19 10:14:44,074 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 10:14:44] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-19 10:14:44,074 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 10:14:44] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-19 10:14:44,077 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 10:14:44] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-19 10:14:44,078 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 10:14:44] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-19 10:14:44,193 - werkzeug - INFO - 127.0.0.1 - - [19/Aug/2025 10:14:44] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-19 10:15:13,174 - werkzeug - INFO - 10.67.67.25 - - [19/Aug/2025 10:15:13] "[33mGET / HTTP/1.1[0m" 404 -
+2025-08-19 10:15:13,244 - werkzeug - INFO - 10.67.67.25 - - [19/Aug/2025 10:15:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-19 10:15:21,480 - werkzeug - INFO - 10.67.67.25 - - [19/Aug/2025 10:15:21] "[32mGET /apidocs HTTP/1.1[0m" 308 -
+2025-08-19 10:15:21,510 - werkzeug - INFO - 10.67.67.25 - - [19/Aug/2025 10:15:21] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-19 10:15:21,553 - werkzeug - INFO - 10.67.67.25 - - [19/Aug/2025 10:15:21] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2025-08-19 10:15:21,555 - werkzeug - INFO - 10.67.67.25 - - [19/Aug/2025 10:15:21] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2025-08-19 10:15:21,560 - werkzeug - INFO - 10.67.67.25 - - [19/Aug/2025 10:15:21] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2025-08-19 10:15:21,565 - werkzeug - INFO - 10.67.67.25 - - [19/Aug/2025 10:15:21] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2025-08-19 10:15:21,981 - werkzeug - INFO - 10.67.67.25 - - [19/Aug/2025 10:15:21] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+2025-08-19 10:15:21,998 - werkzeug - INFO - 10.67.67.25 - - [19/Aug/2025 10:15:21] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-19 10:16:23,398 - werkzeug - INFO - 10.67.67.22 - - [19/Aug/2025 10:16:23] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-19 10:16:23,425 - werkzeug - INFO - 10.67.67.22 - - [19/Aug/2025 10:16:23] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2025-08-19 10:16:23,428 - werkzeug - INFO - 10.67.67.22 - - [19/Aug/2025 10:16:23] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2025-08-19 10:16:23,429 - werkzeug - INFO - 10.67.67.22 - - [19/Aug/2025 10:16:23] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2025-08-19 10:16:23,431 - werkzeug - INFO - 10.67.67.22 - - [19/Aug/2025 10:16:23] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2025-08-19 10:16:24,468 - werkzeug - INFO - 10.67.67.22 - - [19/Aug/2025 10:16:24] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+2025-08-19 10:16:24,486 - werkzeug - INFO - 10.67.67.22 - - [19/Aug/2025 10:16:24] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-19 10:17:09,513 - werkzeug - INFO - 10.67.67.22 - - [19/Aug/2025 10:17:09] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-19 10:17:09,563 - werkzeug - ERROR - 10.67.67.22 - - [19/Aug/2025 10:17:09] code 400, message Bad request version ('81F\x91eµ\x81ïNçØa¹R¼Û}\x81Â6Ç×\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-08-19 10:17:09,564 - werkzeug - INFO - 10.67.67.22 - - [19/Aug/2025 10:17:09] "[31m[1m\x16\x03\x01\x07O\x01\x00\x07K\x03\x03ç\x90³»Gþ¸\x01\x16Ì\x19ù\x15KÔPÌn_\x99ñ\x89X\x99j\x1f¢\x04At\x91\x10 AÑ\x84?\x86\x84<=S\x1f81F\x91eµ\x81ïNçØa¹R¼Û}\x81Â6Ç×\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-08-19 10:17:09,568 - werkzeug - ERROR - 10.67.67.22 - - [19/Aug/2025 10:17:09] code 400, message Bad request version ('\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-08-19 10:17:09,569 - werkzeug - INFO - 10.67.67.22 - - [19/Aug/2025 10:17:09] "[31m[1m\x16\x03\x01\x02~\x01\x00\x02z\x03\x03Ðá\x03i¥®8½âí\x88Ý\x9e\x9dyôÓé\x05ëâ\x15È©\x93\x82\x8d\x05E§K\x13 *\x0b\x0ew\x1cÊ\x02¿¡\x8e\x16ó\x91.§\x9bnW\\G)>\x06¯BÄQV\x9bB\x8d \x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-08-19 10:22:57,178 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-19 10:22:57,839 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f912706bdd0>: Failed to resolve 'prometheus' ([Errno -3] Temporary failure in name resolution)")': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B691200s%5D&time=1755598977
+2025-08-19 10:23:00,203 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f91262a2590>: Failed to resolve 'prometheus' ([Errno -3] Temporary failure in name resolution)")': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B691200s%5D&time=1755598977
+2025-08-19 10:23:04,232 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f91262a38d0>: Failed to resolve 'prometheus' ([Errno -3] Temporary failure in name resolution)")': /api/v1/query?query=mppt_values%7Bsensor%3D%22panel+gucu%22%7D%5B691200s%5D&time=1755598977
+2025-08-19 10:23:04,248 - __main__ - ERROR - Error running forecast: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 426, in run_forecaster_with_env
+    forecaster = OptimizedSolarPowerSARIMAXForecaster(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 47, in __init__
+    self.load_data()
+  File "/app/optimized_forecaster.py", line 98, in load_data
+    self.df["DC_POWER"] = self.df[self.metric]
+                          ~~~~~~~^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-08-19 10:23:04,255 - werkzeug - INFO - 10.67.67.22 - - [19/Aug/2025 10:23:04] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-19 10:35:38,470 - werkzeug - INFO - 10.67.67.22 - - [19/Aug/2025 10:35:38] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-19 10:35:38,500 - werkzeug - INFO - 10.67.67.22 - - [19/Aug/2025 10:35:38] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2025-08-19 10:35:38,505 - werkzeug - INFO - 10.67.67.22 - - [19/Aug/2025 10:35:38] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2025-08-19 10:35:38,506 - werkzeug - INFO - 10.67.67.22 - - [19/Aug/2025 10:35:38] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2025-08-19 10:35:38,507 - werkzeug - INFO - 10.67.67.22 - - [19/Aug/2025 10:35:38] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2025-08-19 10:35:39,707 - werkzeug - INFO - 10.67.67.22 - - [19/Aug/2025 10:35:39] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-19 10:40:17,424 - werkzeug - INFO - 10.67.67.22 - - [19/Aug/2025 10:40:17] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-19 10:45:50,071 - werkzeug - INFO - 10.67.67.22 - - [19/Aug/2025 10:45:50] "GET /sample-env HTTP/1.1" 200 -
+2025-08-19 10:54:53,156 - werkzeug - INFO - 10.67.67.22 - - [19/Aug/2025 10:54:53] "[33mGET / HTTP/1.1[0m" 404 -
+2025-08-19 10:54:53,197 - werkzeug - INFO - 10.67.67.22 - - [19/Aug/2025 10:54:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

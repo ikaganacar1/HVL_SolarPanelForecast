@@ -1,0 +1,25 @@
+# docker-compose.yml
+services:
+  forecaster:
+    build: .
+    image: solar-forecaster-app
+    env_file:
+      - .env  # Varsayılan env dosyası (opsiyonel)
+    network_mode: "host"
+    ports:
+      - "4545:4545"
+    volumes:
+      # Upload klasörü için volume
+      - ./uploads:/app/uploads:rw
+      # Log klasörü için volume  
+      - ./logs:/app/logs:rw
+      # Veri dosyaları için volume (opsiyonel)
+      - ./data:/app/data:ro
+    command: ["python", "-u", "run.py", "api"]
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4545/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
