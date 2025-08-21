@@ -84,7 +84,7 @@ class OptimizedSolarPowerSARIMAXForecaster:
     
     def load_data(self):
         end_time = datetime.datetime.now()
-        start_time = end_time - datetime.timedelta(days=self.train_days+1)
+        start_time = end_time - datetime.timedelta(days=self.train_days+4)
         
         
         
@@ -93,7 +93,7 @@ class OptimizedSolarPowerSARIMAXForecaster:
             metric_name=self.metric,
             start_time=start_time,
             end_time=end_time, 
-            chunk_size=self.train_days+1
+            chunk_size=self.train_days+4
         )
         self.df["DC_POWER"] = self.df[self.metric]
         
