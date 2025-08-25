@@ -963,3 +963,770 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^
 AttributeError: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
 2025-08-21 12:50:56,258 - werkzeug - INFO - 10.67.67.25 - - [21/Aug/2025 12:50:56] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-21 12:58:20,324 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-21 12:58:20,339 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-21 12:58:20,340 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-21 13:29:02,232 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-21 13:29:02,248 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-21 13:29:02,248 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-22 04:19:10,326 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-22 04:19:10,347 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-22 04:19:10,347 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-22 05:48:40,215 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-22 05:48:40,228 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-22 05:48:40,229 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-22 05:58:34,905 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-22 05:58:34,919 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-22 05:58:34,920 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 04:13:29,663 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 04:13:29,675 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 04:13:29,675 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 04:46:12,846 - werkzeug - INFO - 10.67.67.22 - - [25/Aug/2025 04:46:12] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 04:46:12,890 - werkzeug - ERROR - 10.67.67.22 - - [25/Aug/2025 04:46:12] code 400, message Bad request version ('\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-08-25 04:46:12,890 - werkzeug - INFO - 10.67.67.22 - - [25/Aug/2025 04:46:12] "[31m[1m\x16\x03\x01\x07O\x01\x00\x07K\x03\x03ËÌ,\x8céLñ÷õ&Ù~\x1f\x04Õ\x80Â^\x05\x18A\x1bI\x0f'ÏÛíQPý\x0e %ñ\x1d©\x92ÞÏÆ»áº8W[0°rÐÕí.I\x92¡È\x97r_°\x00ý\x0b\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-08-25 04:46:12,894 - werkzeug - ERROR - 10.67.67.22 - - [25/Aug/2025 04:46:12] code 400, message Bad request version ('ËÎGX\x98µ\x96ÏÃ\x8eÛªÀrç\x00[\x11ô\x15\x04é\x00\x97\x83!Ñ`K\x1a¾/\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-08-25 04:46:12,895 - werkzeug - INFO - 10.67.67.22 - - [25/Aug/2025 04:46:12] "[31m[1m\x16\x03\x01\x02~\x01\x00\x02z\x03\x03q\x03y\x11@\x1dá9ôËMÏ\x16²u\x19[¶ã!ïå\x17\x97ì\x9e°\x8fëÏ¤q ËÎGX\x98µ\x96ÏÃ\x8eÛªÀrç\x00[\x11ô\x15\x04é\x00\x97\x83!Ñ`K\x1a¾/\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-08-25 04:59:24,403 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 04:59:24,415 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 04:59:24,415 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:01:09,464 - werkzeug - INFO - 10.67.67.22 - - [25/Aug/2025 05:01:09] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:01:09,495 - werkzeug - ERROR - 10.67.67.22 - - [25/Aug/2025 05:01:09] code 400, message Bad request syntax ('\x16\x03\x01\x07O\x01\x00\x07K\x03\x03§É4ÿÌ^..¾Í·')
+2025-08-25 05:01:09,496 - werkzeug - INFO - 10.67.67.22 - - [25/Aug/2025 05:01:09] "[31m[1m\x16\x03\x01\x07O\x01\x00\x07K\x03\x03§É4ÿÌ^..¾Í·[0m" 400 -
+2025-08-25 05:01:09,502 - werkzeug - ERROR - 10.67.67.22 - - [25/Aug/2025 05:01:09] code 400, message Bad request version ('jyúY40þÕ\x9fM\x07Chw\'ýªE;pük¾\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-08-25 05:01:09,503 - werkzeug - INFO - 10.67.67.22 - - [25/Aug/2025 05:01:09] "[31m[1m\x16\x03\x01\x02~\x01\x00\x02z\x03\x03êv\x0f@\x9cÄe¥«L\x0f\x81_ÛüÎ×Ê®º<%\x0f°Ö­\x9bö5\x8coS DºÉ\x09¥iÎs\x1ejyúY40þÕ\x9fM\x07Chw'ýªE;pük¾\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-08-25 05:15:08,093 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:15:08] "[33mGET / HTTP/1.1[0m" 404 -
+2025-08-25 05:15:13,416 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:15:13] "[33mGET /docs HTTP/1.1[0m" 404 -
+2025-08-25 05:15:19,764 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:15:19] "[32mGET /apidocs HTTP/1.1[0m" 308 -
+2025-08-25 05:15:19,812 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:15:19] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:15:19,889 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:15:19] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2025-08-25 05:15:19,889 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:15:19] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2025-08-25 05:15:19,892 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:15:19] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2025-08-25 05:15:19,893 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:15:19] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2025-08-25 05:15:20,316 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:15:20] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+2025-08-25 05:15:20,348 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:15:20] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:15:41,097 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:15:44,016 - __main__ - ERROR - Error running forecast: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 434, in run_forecaster_with_env
+    simulation_result = forecaster.run(
+                        ^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 83, in run
+    return self.simulation_result
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+2025-08-25 05:15:44,031 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:15:44] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:20:50,644 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:20:50,658 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:20:50,659 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:20:56,941 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:20:56] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:20:57,053 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:20:57] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:20:57,055 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:20:57] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:20:57,058 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:20:57] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:20:57,062 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:20:57] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:20:57,414 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:20:57] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:21:06,118 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:21:06,118 - __main__ - ERROR - Error running forecast: module 'datetime' has no attribute 'strptime'
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 426, in run_forecaster_with_env
+    forecaster = OptimizedSolarPowerSARIMAXForecaster(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 47, in __init__
+    self.load_data()
+  File "/app/optimized_forecaster.py", line 91, in load_data
+    start_time = datetime.strptime(date_string, format_string)
+                 ^^^^^^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'strptime'
+2025-08-25 05:21:06,119 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:21:06] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:21:48,371 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:21:48,386 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:21:48,387 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:21:49,116 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:21:49] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:21:49,209 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:21:49] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:21:49,218 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:21:49] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:21:49,223 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:21:49] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:21:49,229 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:21:49] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:21:49,586 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:21:49] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:22:00,222 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:22:00,224 - __main__ - ERROR - Error running forecast: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 426, in run_forecaster_with_env
+    forecaster = OptimizedSolarPowerSARIMAXForecaster(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 47, in __init__
+    self.load_data()
+  File "/app/optimized_forecaster.py", line 104, in load_data
+    self.df["DC_POWER"] = self.df[self.metric]
+                          ~~~~~~~^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-08-25 05:22:00,228 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:22:00] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:23:18,596 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:23:18,608 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:23:18,609 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:23:22,492 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:23:22] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:23:22,539 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:23:22] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:23:22,542 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:23:22] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:23:22,551 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:23:22] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:23:22,556 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:23:22] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:23:22,931 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:23:22] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:23:27,108 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:23:27,317 - __main__ - ERROR - Error running forecast: Forecast simulation failed to produce results.
+Traceback (most recent call last):
+  File "/app/run.py", line 395, in run_forecast_json
+    raise Exception("Forecast simulation failed to produce results.")
+Exception: Forecast simulation failed to produce results.
+2025-08-25 05:23:27,319 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:23:27] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:28:06,295 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:28:06,308 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:28:06,308 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:28:17,145 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:28:17] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:28:17,204 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:28:17] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:28:17,208 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:28:17] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:28:17,223 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:28:17] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:28:17,229 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:28:17] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:28:17,565 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:28:17] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:28:21,380 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:28:21,380 - __main__ - ERROR - Error running forecast: module 'datetime' has no attribute 'strptime'
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 426, in run_forecaster_with_env
+    forecaster = OptimizedSolarPowerSARIMAXForecaster(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 47, in __init__
+    self.load_data()
+  File "/app/optimized_forecaster.py", line 92, in load_data
+    start_time = datetime.strptime(date_string, format_string)
+                 ^^^^^^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'strptime'
+2025-08-25 05:28:21,384 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:28:21] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:28:59,981 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:28:59,998 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:28:59,998 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:29:00,904 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:29:00] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:29:00,992 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:29:00] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:29:00,998 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:29:00] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:29:01,001 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:29:01] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:29:01,007 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:29:01] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:29:01,290 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:29:01] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:29:05,139 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:29:05,139 - __main__ - ERROR - Error running forecast: module 'datetime' has no attribute 'strptime'
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 426, in run_forecaster_with_env
+    forecaster = OptimizedSolarPowerSARIMAXForecaster(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 47, in __init__
+    self.load_data()
+  File "/app/optimized_forecaster.py", line 92, in load_data
+    start_time = datetime.strptime(date_string, format_string)
+                 ^^^^^^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'strptime'
+2025-08-25 05:29:05,142 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:29:05] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:29:39,989 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:29:40,004 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:29:40,004 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:29:40,929 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:29:40] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:29:41,025 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:29:41] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:29:41,032 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:29:41] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:29:41,035 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:29:41] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:29:41,047 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:29:41] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:29:41,306 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:29:41] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:29:45,973 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:29:46,340 - __main__ - ERROR - Error running forecast: Forecast simulation failed to produce results.
+Traceback (most recent call last):
+  File "/app/run.py", line 395, in run_forecast_json
+    raise Exception("Forecast simulation failed to produce results.")
+Exception: Forecast simulation failed to produce results.
+2025-08-25 05:29:46,343 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:29:46] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:30:46,497 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:30:46,513 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:30:46,513 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:30:46,774 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:30:46] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:30:46,839 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:30:46] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:30:46,840 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:30:46] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:30:46,841 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:30:46] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:30:46,842 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:30:46] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:30:47,072 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:30:47] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:30:50,016 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:30:50,410 - __main__ - ERROR - Error running forecast: Forecast simulation failed to produce results.
+Traceback (most recent call last):
+  File "/app/run.py", line 395, in run_forecast_json
+    raise Exception("Forecast simulation failed to produce results.")
+Exception: Forecast simulation failed to produce results.
+2025-08-25 05:30:50,413 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:30:50] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:31:24,042 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:31:24,090 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:31:24,090 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:31:24,808 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:31:24] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:31:24,903 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:31:24] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:31:24,912 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:31:24] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:31:24,920 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:31:24] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:31:24,926 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:31:24] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:31:25,189 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:31:25] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:31:28,381 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:31:28,397 - __main__ - ERROR - Error running forecast: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 426, in run_forecaster_with_env
+    forecaster = OptimizedSolarPowerSARIMAXForecaster(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 47, in __init__
+    self.load_data()
+  File "/app/optimized_forecaster.py", line 106, in load_data
+    self.df["DC_POWER"] = self.df[self.metric]
+                          ~~~~~~~^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-08-25 05:31:28,403 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:31:28] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:32:26,158 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:32:26,171 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:32:26,172 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:32:28,286 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:32:28] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:32:28,349 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:32:28] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:32:28,356 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:32:28] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:32:28,361 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:32:28] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:32:28,366 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:32:28] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:32:28,699 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:32:28] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:32:31,859 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:32:32,232 - __main__ - ERROR - Error running forecast: Forecast simulation failed to produce results.
+Traceback (most recent call last):
+  File "/app/run.py", line 395, in run_forecast_json
+    raise Exception("Forecast simulation failed to produce results.")
+Exception: Forecast simulation failed to produce results.
+2025-08-25 05:32:32,237 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:32:32] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:32:46,842 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:32:47,052 - __main__ - ERROR - Error running forecast: Forecast simulation failed to produce results.
+Traceback (most recent call last):
+  File "/app/run.py", line 395, in run_forecast_json
+    raise Exception("Forecast simulation failed to produce results.")
+Exception: Forecast simulation failed to produce results.
+2025-08-25 05:32:47,054 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:32:47] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:32:56,438 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:32:56,786 - __main__ - ERROR - Error running forecast: Forecast simulation failed to produce results.
+Traceback (most recent call last):
+  File "/app/run.py", line 395, in run_forecast_json
+    raise Exception("Forecast simulation failed to produce results.")
+Exception: Forecast simulation failed to produce results.
+2025-08-25 05:32:56,787 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:32:56] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:33:21,962 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:33:21,976 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:33:21,976 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:33:22,264 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:33:22] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:33:22,305 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:33:22] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:33:22,314 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:33:22] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:33:22,319 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:33:22] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:33:22,326 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:33:22] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:33:22,600 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:33:22] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:33:26,317 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:33:26,834 - __main__ - ERROR - Error running forecast: Forecast simulation failed to produce results.
+Traceback (most recent call last):
+  File "/app/run.py", line 395, in run_forecast_json
+    raise Exception("Forecast simulation failed to produce results.")
+Exception: Forecast simulation failed to produce results.
+2025-08-25 05:33:26,835 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:33:26] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:33:53,485 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:33:53,499 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:33:53,499 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:33:56,721 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:33:56] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:33:56,778 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:33:56] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:33:56,781 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:33:56] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:33:56,786 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:33:56] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:33:56,787 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:33:56] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:33:57,066 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:33:57] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:33:59,523 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:33:59,853 - __main__ - ERROR - Error running forecast: Forecast simulation failed to produce results.
+Traceback (most recent call last):
+  File "/app/run.py", line 395, in run_forecast_json
+    raise Exception("Forecast simulation failed to produce results.")
+Exception: Forecast simulation failed to produce results.
+2025-08-25 05:33:59,854 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:33:59] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:34:48,026 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:34:48,042 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:34:48,042 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:34:49,808 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:34:49] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:34:49,869 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:34:49] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:34:49,879 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:34:49] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:34:49,886 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:34:49] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:34:49,890 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:34:49] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:34:50,199 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:34:50] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:34:52,529 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:34:52,834 - __main__ - ERROR - Error running forecast: Forecast simulation failed to produce results.
+Traceback (most recent call last):
+  File "/app/run.py", line 395, in run_forecast_json
+    raise Exception("Forecast simulation failed to produce results.")
+Exception: Forecast simulation failed to produce results.
+2025-08-25 05:34:52,836 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:34:52] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:36:05,413 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:36:05,428 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:36:05,428 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:36:05,770 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:36:05] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:36:05,867 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:36:05] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:36:05,867 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:36:05] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:36:05,868 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:36:05] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:36:05,868 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:36:05] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:36:06,126 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:36:06] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:36:08,658 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:36:08,946 - __main__ - ERROR - Error running forecast: Forecast simulation failed to produce results.
+Traceback (most recent call last):
+  File "/app/run.py", line 395, in run_forecast_json
+    raise Exception("Forecast simulation failed to produce results.")
+Exception: Forecast simulation failed to produce results.
+2025-08-25 05:36:08,947 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:36:08] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:36:42,094 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:36:42,123 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:36:42,124 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:36:42,428 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:36:42] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:36:42,474 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:36:42] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:36:42,479 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:36:42] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:36:42,486 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:36:42] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:36:42,492 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:36:42] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:36:42,774 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:36:42] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:36:45,448 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:36:45,764 - __main__ - ERROR - Error running forecast: Forecast simulation failed to produce results.
+Traceback (most recent call last):
+  File "/app/run.py", line 395, in run_forecast_json
+    raise Exception("Forecast simulation failed to produce results.")
+Exception: Forecast simulation failed to produce results.
+2025-08-25 05:36:45,765 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:36:45] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:36:54,621 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:36:54,882 - __main__ - ERROR - Error running forecast: Forecast simulation failed to produce results.
+Traceback (most recent call last):
+  File "/app/run.py", line 395, in run_forecast_json
+    raise Exception("Forecast simulation failed to produce results.")
+Exception: Forecast simulation failed to produce results.
+2025-08-25 05:36:54,883 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:36:54] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:37:25,113 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:37:25,132 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:37:25,133 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:37:26,018 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:37:26] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:37:26,086 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:37:26] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:37:26,092 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:37:26] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:37:26,095 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:37:26] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:37:26,096 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:37:26] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:37:26,348 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:37:26] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:37:29,591 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:37:32,482 - __main__ - ERROR - Error running forecast: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 434, in run_forecaster_with_env
+    simulation_result = forecaster.run(
+                        ^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 83, in run
+    return self.simulation_result
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+2025-08-25 05:37:32,488 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:37:32] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:38:17,596 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:38:17,612 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:38:17,613 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:38:20,779 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:38:20] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:38:20,837 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:38:20] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:38:20,843 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:38:20] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:38:20,845 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:38:20] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:38:20,848 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:38:20] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:38:21,080 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:38:21] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:38:24,357 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:38:24,798 - __main__ - ERROR - Error running forecast: Forecast simulation failed to produce results.
+Traceback (most recent call last):
+  File "/app/run.py", line 395, in run_forecast_json
+    raise Exception("Forecast simulation failed to produce results.")
+Exception: Forecast simulation failed to produce results.
+2025-08-25 05:38:24,801 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:38:24] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:39:12,263 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:39:12,281 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:39:12,282 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:39:15,080 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:39:15] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:39:15,153 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:39:15] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:39:15,158 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:39:15] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:39:15,161 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:39:15] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:39:15,163 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:39:15] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:39:15,439 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:39:15] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:39:18,325 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:39:22,208 - __main__ - ERROR - Error running forecast: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 434, in run_forecaster_with_env
+    simulation_result = forecaster.run(
+                        ^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 83, in run
+    return self.simulation_result
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+2025-08-25 05:39:22,210 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:39:22] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:42:59,358 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:42:59,375 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:42:59,376 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:42:59,505 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:42:59] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:42:59,553 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:42:59] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:42:59,558 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:42:59] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:42:59,571 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:42:59] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:42:59,576 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:42:59] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:43:08,573 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:43:08] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:43:08,674 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:43:08] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:43:08,686 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:43:08] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:43:08,689 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:43:08] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:43:08,690 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:43:08] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:43:09,020 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:43:09] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:43:11,774 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:43:15,648 - __main__ - ERROR - Error running forecast: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 434, in run_forecaster_with_env
+    simulation_result = forecaster.run(
+                        ^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 83, in run
+    return self.simulation_result
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+2025-08-25 05:43:15,650 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:43:15] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:44:09,035 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:44:09,053 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:44:09,053 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:44:09,170 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:44:09] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:44:09,230 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:44:09] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:44:09,236 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:44:09] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:44:09,237 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:44:09] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:44:09,239 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:44:09] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:44:09,521 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:44:09] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:44:12,088 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:44:14,252 - __main__ - ERROR - Error running forecast: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 434, in run_forecaster_with_env
+    simulation_result = forecaster.run(
+                        ^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 83, in run
+    return self.simulation_result
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+2025-08-25 05:44:14,254 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:44:14] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:44:21,339 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:44:25,572 - __main__ - ERROR - Error running forecast: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 434, in run_forecaster_with_env
+    simulation_result = forecaster.run(
+                        ^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 83, in run
+    return self.simulation_result
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+2025-08-25 05:44:25,574 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:44:25] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:44:54,499 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:44:54,527 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:44:54,527 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:44:55,241 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:44:55] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:44:55,306 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:44:55] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:44:55,310 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:44:55] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:44:55,311 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:44:55] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:44:55,319 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:44:55] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:44:55,585 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:44:55] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:44:59,121 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:44:59,472 - __main__ - ERROR - Error running forecast: Forecast simulation failed to produce results.
+Traceback (most recent call last):
+  File "/app/run.py", line 395, in run_forecast_json
+    raise Exception("Forecast simulation failed to produce results.")
+Exception: Forecast simulation failed to produce results.
+2025-08-25 05:44:59,474 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:44:59] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:45:06,062 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:45:06,404 - __main__ - ERROR - Error running forecast: Forecast simulation failed to produce results.
+Traceback (most recent call last):
+  File "/app/run.py", line 395, in run_forecast_json
+    raise Exception("Forecast simulation failed to produce results.")
+Exception: Forecast simulation failed to produce results.
+2025-08-25 05:45:06,405 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:45:06] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:46:30,171 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:46:30,193 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:46:30,193 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:46:31,284 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:46:31] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:46:31,347 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:46:31] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:46:31,349 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:46:31] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:46:31,352 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:46:31] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:46:31,354 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:46:31] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:46:31,631 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:46:31] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:46:34,769 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:46:37,140 - __main__ - ERROR - Error running forecast: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 434, in run_forecaster_with_env
+    simulation_result = forecaster.run(
+                        ^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 83, in run
+    return self.simulation_result
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+2025-08-25 05:46:37,142 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:46:37] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:48:19,655 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:48:19,669 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:48:19,670 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:48:19,760 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:48:19] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:48:19,814 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:48:19] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:48:19,825 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:48:19] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:48:19,830 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:48:19] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:48:19,831 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:48:19] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:48:20,095 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:48:20] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:48:23,006 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:48:23,426 - __main__ - ERROR - Error running forecast: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 434, in run_forecaster_with_env
+    simulation_result = forecaster.run(
+                        ^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 83, in run
+    return self.simulation_result
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+2025-08-25 05:48:23,432 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:48:23] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:49:00,453 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:49:00,471 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:49:00,471 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:49:01,049 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:49:01] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:49:01,116 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:49:01] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:49:01,119 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:49:01] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:49:01,121 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:49:01] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:49:01,128 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:49:01] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:49:01,410 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:49:01] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:49:03,848 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:49:06,168 - __main__ - ERROR - Error running forecast: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 434, in run_forecaster_with_env
+    simulation_result = forecaster.run(
+                        ^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 83, in run
+    return self.simulation_result
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+2025-08-25 05:49:06,202 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:49:06] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:49:53,080 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:49:53,093 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:49:53,093 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:49:53,242 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:49:53] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:49:53,297 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:49:53] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:49:53,299 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:49:53] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:49:53,300 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:49:53] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:49:53,313 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:49:53] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:49:53,596 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:49:53] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:49:56,736 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:49:59,430 - __main__ - ERROR - Error running forecast: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 434, in run_forecaster_with_env
+    simulation_result = forecaster.run(
+                        ^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 83, in run
+    return self.simulation_result
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+2025-08-25 05:49:59,436 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:49:59] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:50:38,922 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:50:38,945 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:50:38,945 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:50:39,435 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:50:39] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:50:39,492 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:50:39] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:50:39,510 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:50:39] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:50:39,511 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:50:39] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:50:39,512 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:50:39] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:50:39,779 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:50:39] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:50:42,207 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:50:44,879 - __main__ - ERROR - Error running forecast: Prediction must have `end` after `start`.
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 434, in run_forecaster_with_env
+    simulation_result = forecaster.run(
+                        ^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 78, in run
+    self.forecast_on_slice(
+  File "/app/optimized_forecaster.py", line 389, in forecast_on_slice
+    raise e
+  File "/app/optimized_forecaster.py", line 373, in forecast_on_slice
+    forecast = fitted_model.forecast(steps=len(test_data))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/statsmodels/base/wrapper.py", line 113, in wrapper
+    obj = data.wrap_output(func(results, *args, **kwargs), how)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/statsmodels/tsa/statespace/mlemodel.py", line 3538, in forecast
+    return self.predict(start=self.nobs, end=end, signal_only=signal_only,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/statsmodels/tsa/statespace/mlemodel.py", line 3488, in predict
+    prediction_results = self.get_prediction(
+                         ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/statsmodels/tsa/statespace/mlemodel.py", line 3341, in get_prediction
+    self.model._get_prediction_index(start, end, index))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py", line 837, in _get_prediction_index
+    return get_prediction_index(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py", line 389, in get_prediction_index
+    raise ValueError("Prediction must have `end` after `start`.")
+ValueError: Prediction must have `end` after `start`.
+2025-08-25 05:50:44,893 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:50:44] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 05:59:39,438 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 05:59:39,455 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 05:59:39,455 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 05:59:39,661 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:59:39] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 05:59:39,733 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:59:39] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 05:59:39,734 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:59:39] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 05:59:39,746 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:59:39] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 05:59:39,749 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:59:39] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 05:59:40,030 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:59:40] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 05:59:42,153 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 05:59:42,524 - __main__ - ERROR - Error running forecast: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+Traceback (most recent call last):
+  File "/app/run.py", line 392, in run_forecast_json
+    result = self.run_forecaster_with_env(params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/run.py", line 434, in run_forecaster_with_env
+    simulation_result = forecaster.run(
+                        ^^^^^^^^^^^^^^^
+  File "/app/optimized_forecaster.py", line 83, in run
+    return self.simulation_result
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute 'simulation_result'
+2025-08-25 05:59:42,528 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 05:59:42] "[35m[1mPOST /run HTTP/1.1[0m" 500 -
+2025-08-25 06:07:40,606 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-25 06:07:40,628 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-25 06:07:40,629 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-25 06:07:43,150 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 06:07:43] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-25 06:07:43,242 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 06:07:43] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-25 06:07:43,243 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 06:07:43] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-25 06:07:43,254 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 06:07:43] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-25 06:07:43,256 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 06:07:43] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-25 06:07:43,543 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 06:07:43] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-25 06:07:45,673 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
+2025-08-25 06:07:48,581 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 06:07:48] "POST /run HTTP/1.1" 200 -

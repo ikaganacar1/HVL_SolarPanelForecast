@@ -68,12 +68,12 @@ class OptimizedSolarPowerSARIMAXForecaster:
 
 
         train_hours = self.train_days * 24
-        if len(self.hourly_data) < train_hours + 24:
+        if len(self.hourly_data) < train_hours:
             print("HATA: Yeterli veri yok! En az {} saat gerekli.".format(train_hours + 24))
             return None
 
         # Son 7 gün + ertesi gün slice
-        data_slice = self.hourly_data.iloc[-(train_hours+24):]
+        data_slice = self.hourly_data #self.hourly_data.iloc[-(train_hours):]
 
         self.forecast_on_slice(
             data_slice=data_slice,
@@ -83,20 +83,28 @@ class OptimizedSolarPowerSARIMAXForecaster:
         return self.simulation_result
     
     def load_data(self):
-        end_time = datetime.datetime.now()
-        start_time = end_time - datetime.timedelta(days=self.train_days+4)
+        #end_time = datetime.datetime.now()
+        #start_time = end_time - datetime.timedelta(days=self.train_days+4)
         
-        
+        ######################
+        date_string = "2025-08-12 00:00:00.00"
+        format_string = "%Y-%m-%d %H:%M:%S.%f"
+        start_time = datetime.datetime.strptime(date_string, format_string)
+    #
+        date_string = "2025-08-25 00:00:00.00"
+        format_string = "%Y-%m-%d %H:%M:%S.%f"
+        end_time = datetime.datetime.strptime(date_string, format_string)
+        ##########################
         
         self.df = get_data_from_prometheus(
             prometheus_url=self.prometheus_server_url,
             metric_name=self.metric,
             start_time=start_time,
             end_time=end_time, 
-            chunk_size=self.train_days+4
+            chunk_size=self.train_days+1
         )
         self.df["DC_POWER"] = self.df[self.metric]
-        
+        print(len(self.df["DC_POWER"]))
     def prepare_data(self):
 
         self.df['DATE_TIME'] = pd.to_datetime(self.df['DATE_TIME'])
@@ -344,15 +352,27 @@ class OptimizedSolarPowerSARIMAXForecaster:
 
         
     def forecast_on_slice(self, data_slice):
-       
         order=(1,1,1)
         seasonal_order=(1,0,1,24)
         
         train_hours = self.train_days * 24
+        min_test_hours = 24  # At least 1 day for testing
+        
+        # Check if we have enough data
+        if len(data_slice) < train_hours + min_test_hours:
+            print(f"WARNING: Not enough data! Have {len(data_slice)} rows but need at least {train_hours + min_test_hours}")
+            self.simulation_result = None
+            return
+        
         train_data = data_slice.iloc[:train_hours]
         test_data = data_slice.iloc[train_hours:]
         
+        print(f"Train data length: {len(train_data)}")
+        print(f"Test data length: {len(test_data)}")
+        
         try:
+            print(train_data['DC_POWER'])
+
             model = SARIMAX(
                 train_data['DC_POWER'],
                 order=order, seasonal_order=seasonal_order
@@ -376,4 +396,6 @@ class OptimizedSolarPowerSARIMAXForecaster:
                 )
             
         except Exception as e:
-            print(f"Model veya simülasyon hatası: {str(e)}")
+            raise e
+            #print(f"Model veya simülasyon hatası: {str(e)}")
+

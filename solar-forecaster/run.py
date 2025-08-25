@@ -347,7 +347,7 @@ class DockerServiceAPI:
                   properties:
                     PROMETHEUS_URL:
                       type: string
-                      example: 'http://prometheus:9090'
+                      example: 'http://10.67.67.22:9090'
                     METRIC_NAME:
                       type: string
                       example: 'mppt_values{sensor="panel gucu"}'

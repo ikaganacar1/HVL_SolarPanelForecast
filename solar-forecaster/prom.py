@@ -42,17 +42,17 @@ def main():
 
     panel_gucu_metric = "mppt_values{sensor=\"panel gucu\"}" 
 
-    end_time = datetime.now()
-    start_time = end_time - timedelta(days=7)
+    #end_time = datetime.now()
+    #start_time = end_time - timedelta(days=7)
 
     ######################
-    #date_string = "2025-08-06 15:00:49.345556"
-    #format_string = "%Y-%m-%d %H:%M:%S.%f"
-    #start_time = datetime.strptime(date_string, format_string)
+    date_string = "2025-08-01 15:00:49.345556"
+    format_string = "%Y-%m-%d %H:%M:%S.%f"
+    start_time = datetime.datetime.strptime(date_string, format_string)
 #
-    #date_string = "2025-08-08 14:39:49.345556"
-    #format_string = "%Y-%m-%d %H:%M:%S.%f"
-    #end_time = datetime.strptime(date_string, format_string)
+    date_string = "2025-09-1 00:00:00.00"
+    format_string = "%Y-%m-%d %H:%M:%S.%f"
+    end_time = datetime.datetime.strptime(date_string, format_string)
     ##########################
     
     df_panel_gucu = get_data_from_prometheus(
@@ -63,10 +63,8 @@ def main():
         chunk_size=7
     )
     if df_panel_gucu is not None:
-        print("\n--- Çekilen Panel Gücü Verisi (İlk 5 Satır) ---")
-        print(df_panel_gucu.head())
 
         df_panel_gucu.set_index('DATE_TIME').plot(title='Panel Gücü (Son 7 Gün)')
         plt.show()
 
-main()
+#main()
