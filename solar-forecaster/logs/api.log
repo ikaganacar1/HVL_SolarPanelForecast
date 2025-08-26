@@ -1730,3 +1730,15 @@ AttributeError: 'OptimizedSolarPowerSARIMAXForecaster' object has no attribute '
 2025-08-25 06:07:43,543 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 06:07:43] "GET /apispec_1.json HTTP/1.1" 200 -
 2025-08-25 06:07:45,673 - __main__ - INFO - Running forecast with JSON parameters: 10 variables
 2025-08-25 06:07:48,581 - werkzeug - INFO - 127.0.0.1 - - [25/Aug/2025 06:07:48] "POST /run HTTP/1.1" 200 -
+2025-08-26 04:17:05,714 - __main__ - INFO - ✅ Swagger UI başarıyla başlatıldı. Arayüze /apidocs adresinden ulaşabilirsiniz.
+2025-08-26 04:17:15,734 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4545
+ * Running on http://10.67.67.25:4545
+2025-08-26 04:17:15,734 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-26 05:03:40,937 - werkzeug - INFO - 10.67.67.25 - - [26/Aug/2025 05:03:40] "GET /apidocs/ HTTP/1.1" 200 -
+2025-08-26 05:03:40,991 - werkzeug - INFO - 10.67.67.25 - - [26/Aug/2025 05:03:40] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-26 05:03:40,995 - werkzeug - INFO - 10.67.67.25 - - [26/Aug/2025 05:03:40] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-26 05:03:41,002 - werkzeug - INFO - 10.67.67.25 - - [26/Aug/2025 05:03:41] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2025-08-26 05:03:41,014 - werkzeug - INFO - 10.67.67.25 - - [26/Aug/2025 05:03:41] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-26 05:03:41,585 - werkzeug - INFO - 10.67.67.25 - - [26/Aug/2025 05:03:41] "GET /apispec_1.json HTTP/1.1" 200 -
