@@ -101,7 +101,7 @@ class OptimizedSolarPowerSARIMAXForecaster:
             metric_name=self.metric,
             start_time=start_time,
             end_time=end_time, 
-            chunk_size=self.train_days+1
+            chunk_size=self.train_days+4
         )
         self.df["DC_POWER"] = self.df[self.metric]
         print(len(self.df["DC_POWER"]))
