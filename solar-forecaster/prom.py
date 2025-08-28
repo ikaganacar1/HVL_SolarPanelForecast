@@ -48,11 +48,11 @@ def main():
     ######################
     date_string = "2025-08-01 15:00:49.345556"
     format_string = "%Y-%m-%d %H:%M:%S.%f"
-    start_time = datetime.datetime.strptime(date_string, format_string)
+    start_time = datetime.strptime(date_string, format_string)
 #
     date_string = "2025-09-1 00:00:00.00"
     format_string = "%Y-%m-%d %H:%M:%S.%f"
-    end_time = datetime.datetime.strptime(date_string, format_string)
+    end_time = datetime.strptime(date_string, format_string)
     ##########################
     
     df_panel_gucu = get_data_from_prometheus(
