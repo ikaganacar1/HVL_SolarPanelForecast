@@ -38,21 +38,21 @@ def get_data_from_prometheus(prometheus_url, metric_name, start_time, end_time, 
         return None
 
 def main():
-    prometheus_server_url = "http://10.67.67.22:9090"
+    prometheus_server_url = "http://10.67.67.192:9090"
 
     panel_gucu_metric = "mppt_values{sensor=\"panel gucu\"}" 
 
-    #end_time = datetime.now()
-    #start_time = end_time - timedelta(days=7)
+    end_time = datetime.now()
+    start_time = end_time - timedelta(days=7)
 
     ######################
-    date_string = "2025-08-01 15:00:49.345556"
-    format_string = "%Y-%m-%d %H:%M:%S.%f"
-    start_time = datetime.strptime(date_string, format_string)
+    #date_string = "2025-08-01 15:00:49.345556"
+    #format_string = "%Y-%m-%d %H:%M:%S.%f"
+    #start_time = datetime.strptime(date_string, format_string)
 #
-    date_string = "2025-09-1 00:00:00.00"
-    format_string = "%Y-%m-%d %H:%M:%S.%f"
-    end_time = datetime.strptime(date_string, format_string)
+    #date_string = "2025-09-1 00:00:00.00"
+    #format_string = "%Y-%m-%d %H:%M:%S.%f"
+    #end_time = datetime.strptime(date_string, format_string)
     ##########################
     
     df_panel_gucu = get_data_from_prometheus(

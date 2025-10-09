@@ -83,36 +83,85 @@ class OptimizedSolarPowerSARIMAXForecaster:
         return self.simulation_result
     
     def load_data(self):
-        #end_time = datetime.datetime.now()
-        #start_time = end_time - datetime.timedelta(days=self.train_days+4)
-        
-        ######################
-        date_string = "2025-08-12 00:00:00.00"
-        format_string = "%Y-%m-%d %H:%M:%S.%f"
-        start_time = datetime.datetime.strptime(date_string, format_string)
-    #
-        date_string = "2025-08-25 00:00:00.00"
-        format_string = "%Y-%m-%d %H:%M:%S.%f"
-        end_time = datetime.datetime.strptime(date_string, format_string)
-        ##########################
+        end_time = datetime.datetime.now()
+        # Load train_days + extra days for testing and to account for missing data
+        # Adding 2 extra days to ensure we have enough data after processing
+        start_time = end_time - datetime.timedelta(days=self.train_days + 2)
         
         self.df = get_data_from_prometheus(
             prometheus_url=self.prometheus_server_url,
             metric_name=self.metric,
             start_time=start_time,
             end_time=end_time, 
-            chunk_size=self.train_days+4
+            chunk_size=self.train_days + 2  # Adjust chunk size accordingly
         )
         self.df["DC_POWER"] = self.df[self.metric]
-        print(len(self.df["DC_POWER"]))
+        print(f"Loaded {len(self.df['DC_POWER'])} raw data points from {start_time} to {end_time}")
+        
+    def fill_missing_with_hourly_mean(self, df_hourly):
+        """
+        Fill missing hours with historical mean for that specific hour.
+        This is important for solar data which follows daily patterns.
+        """
+        # Create complete hourly index
+        start_time = df_hourly.index.min()
+        end_time = df_hourly.index.max()
+        complete_index = pd.date_range(start=start_time, end=end_time, freq='H')
+        
+        # Identify missing hours
+        missing_hours = complete_index.difference(df_hourly.index)
+        
+        if len(missing_hours) > 0:
+            print(f"⚠️ Found {len(missing_hours)} missing hours in data. Filling with historical hourly means...")
+            
+            # Calculate mean for each hour of day from existing data
+            hourly_means = df_hourly.groupby(df_hourly.index.hour)['DC_POWER'].mean()
+            
+            # Reindex to complete timeline
+            df_hourly = df_hourly.reindex(complete_index)
+            
+            # Fill missing values with corresponding hourly means
+            for hour in missing_hours:
+                hour_of_day = hour.hour
+                if hour_of_day in hourly_means.index:
+                    df_hourly.loc[hour, 'DC_POWER'] = hourly_means[hour_of_day]
+                else:
+                    # If we don't have data for this hour, use overall mean
+                    df_hourly.loc[hour, 'DC_POWER'] = df_hourly['DC_POWER'].mean()
+            
+            # Handle any remaining NaN values (edge cases)
+            if df_hourly['DC_POWER'].isna().any():
+                # Forward fill first, then backward fill for any remaining NaNs
+                df_hourly['DC_POWER'] = df_hourly['DC_POWER'].fillna(method='ffill').fillna(method='bfill')
+                
+                # If still NaN (all data missing), fill with 0 (night time assumption)
+                df_hourly['DC_POWER'] = df_hourly['DC_POWER'].fillna(0)
+            
+            print(f"✅ Missing data filled successfully")
+            
+            # Log which hours were filled
+            if len(missing_hours) <= 10:
+                print(f"   Filled hours: {[h.strftime('%Y-%m-%d %H:%M') for h in missing_hours]}")
+            else:
+                print(f"   Filled hours include: {missing_hours[0].strftime('%Y-%m-%d %H:%M')} to {missing_hours[-1].strftime('%Y-%m-%d %H:%M')}")
+        
+        return df_hourly
+    
     def prepare_data(self):
 
         self.df['DATE_TIME'] = pd.to_datetime(self.df['DATE_TIME'])
         self.df = self.df.sort_values('DATE_TIME')
 
         self.df = self.df.set_index('DATE_TIME')
+        
+        # Handle missing values in raw data before processing
+        # Remove duplicates if any (keep first occurrence)
+        self.df = self.df[~self.df.index.duplicated(keep='first')]
+        
+        # Fill any NaN values in DC_POWER with 0 (assuming no generation)
+        self.df['DC_POWER'] = self.df['DC_POWER'].fillna(0)
+        
         self.max_power = self.df['DC_POWER'].max()
-
 
         cols_to_drop = ["PLANT_ID", "SOURCE_KEY", "AC_POWER", "TOTAL_YIELD"]
         existing_cols_to_drop = [col for col in cols_to_drop if col in self.df.columns]
@@ -140,6 +189,9 @@ class OptimizedSolarPowerSARIMAXForecaster:
             self.hourly_data = self.df.resample('H').agg({
                 'DC_POWER': 'mean',
             }).dropna()
+        
+        # Fill missing hours with historical hourly means
+        self.hourly_data = self.fill_missing_with_hourly_mean(self.hourly_data)
         
         print(f"Saatlik veri hazırlandı: {len(self.hourly_data)} kayıt")
     
@@ -361,18 +413,32 @@ class OptimizedSolarPowerSARIMAXForecaster:
         # Check if we have enough data
         if len(data_slice) < train_hours + min_test_hours:
             print(f"WARNING: Not enough data! Have {len(data_slice)} rows but need at least {train_hours + min_test_hours}")
-            self.simulation_result = None
-            return
+            
+            # Try to adjust training period if we have some data but not enough
+            if len(data_slice) >= 96:  # At least 4 days of data
+                # Reduce training period to available data minus 1 day for testing
+                train_hours = len(data_slice) - 24
+                print(f"Adjusting training period to {train_hours} hours to work with available data")
+            else:
+                print("ERROR: Insufficient data for any meaningful forecast")
+                self.simulation_result = None
+                return
         
-        train_data = data_slice.iloc[:train_hours]
-        test_data = data_slice.iloc[train_hours:]
+        # Use all available data, keeping last portion for testing
+        if len(data_slice) > train_hours + min_test_hours:
+            # We have more data than needed, use it all
+            test_hours = len(data_slice) - train_hours
+            train_data = data_slice.iloc[:train_hours]
+            test_data = data_slice.iloc[train_hours:]
+        else:
+            # Use exactly what we have
+            train_data = data_slice.iloc[:train_hours]
+            test_data = data_slice.iloc[train_hours:]
         
         print(f"Train data length: {len(train_data)}")
         print(f"Test data length: {len(test_data)}")
         
         try:
-            print(train_data['DC_POWER'])
-
             model = SARIMAX(
                 train_data['DC_POWER'],
                 order=order, seasonal_order=seasonal_order
@@ -387,15 +453,16 @@ class OptimizedSolarPowerSARIMAXForecaster:
                 'Predicted_DC_POWER': forecast.values
             }, index=forecast.index)
 
-            history_start_index = len(train_data) - (3 * 24)
+            # Ensure we have enough history data (max 3 days or available data)
+            history_hours = min(3 * 24, len(train_data))
+            history_start_index = len(train_data) - history_hours
             history_data = train_data.iloc[history_start_index:]
             
             self.simulation_result = self._simulate_battery_soc_optimized(
                 history_data=history_data,
                 predicted_dc_power_df=forecast_df
-                )
+            )
             
         except Exception as e:
+            print(f"Model or simulation error: {str(e)}")
             raise e
-            #print(f"Model veya simülasyon hatası: {str(e)}")
-
